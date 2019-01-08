@@ -2,6 +2,7 @@
 "starting_point_coordinates":[0,0],
 "destination_point_coordinates":[0,0],
 "city":"x",
+"DarkSky_API_key":"DarkSky_API.txt",
 "google_maps_API_key": "x",
 "google_sheets_API_key": "x",
 "google_sheet_ID": "x",
