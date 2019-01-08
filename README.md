@@ -12,7 +12,7 @@ All you have to do to run it is to rename the SAMPLE-config.json file to config.
 
 Google Sheets template : [here](https://docs.google.com/spreadsheets/d/1VKMkeDPqdf1fYtbxRYg-TMH5dkeqJb6f0bHPmTf7Re8/edit?usp=sharing)
 
-The script is currently configured to be run every half hour.
+The script is currently configured to be run every half hour. At 8AM it sends a notification to the user's PushBullet registered devices with yesterday's travel time average.
 
 Travel time is calculated by Google Maps based on current traffic and the route chosen can differ if an alternative is faster (shortest route is not always chosen).
 
