@@ -24,5 +24,3 @@ def get_city_coordinates(city,API_key):
     latitude = coord["lat"]
     longitude = coord["lng"]
     return latitude, longitude
-
-get_city_coordinates("Timisoara","Gmaps_key.txt")
