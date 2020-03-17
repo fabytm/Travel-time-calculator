@@ -14,6 +14,12 @@ Google Sheets template : [here](https://docs.google.com/spreadsheets/d/1VKMkeDPq
 
 The script is currently configured to be run every half hour. At 8AM it sends a notification to the user's PushBullet registered devices with yesterday's travel time average.
 
+Cron job example (to run the script every half hour):
+
+```
+*/30 * * * * path/to/python/python3 path/to/project/ETA.py >> path/to/project/log.txt 2>path/to/project/errors.txt
+```
+
 Travel time is calculated by Google Maps based on current traffic and the route chosen can differ if an alternative is faster (shortest route is not always chosen).
 
 Powered by Dark Sky
